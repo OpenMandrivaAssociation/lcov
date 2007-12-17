@@ -10,7 +10,6 @@ Group:		Development/Other
 License:	GPL
 URL:		http://ltp.sourceforge.net/coverage/lcov.php
 Source:		http://ltp.sourceforge.net/coverage/tools/%{name}-%{version}.tar.gz
-BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
 BuildArch:	noarch
 
 %description
