@@ -1,13 +1,13 @@
 %define name	lcov
-%define version	1.6
-%define release	%mkrel 4
+%define version	1.8
+%define release	%mkrel 1
 
 Summary:	LTP GCOV extension code coverage tool
 Name:		%{name}
 Version:	%{version}
 Release:	%{release}
 Group:		Development/Other
-License:	GPL
+License:	GPLv2
 URL:		http://ltp.sourceforge.net/coverage/lcov.php
 Source:		http://ltp.sourceforge.net/coverage/tools/%{name}-%{version}.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-root
