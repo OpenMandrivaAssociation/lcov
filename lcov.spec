@@ -1,6 +1,6 @@
 %define name	lcov
 %define version	1.9
-%define release	%mkrel 1
+%define release	2
 
 Summary:	LTP GCOV extension code coverage tool
 Name:		%{name}
