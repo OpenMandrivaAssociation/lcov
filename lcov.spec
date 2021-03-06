@@ -21,14 +21,10 @@ HTML output and support for large projects.
 %build
 
 %install
-%makeinstall PREFIX=%{buildroot}
-chmod -x %{buildroot}%{_sysconfdir}/lcovrc
-
-%clean
+%make_install DESTDIR=$RPM_BUILD_ROOT BIN_DIR=%{_bindir} MAN_DIR=%{_mandir} CFG_DIR=%{_sysconfdir}
+chmod -x $RPM_BUILD_ROOT%{_sysconfdir}/lcovrc
 
 %files
 %config(noreplace) %{_sysconfdir}/lcovrc
 %{_bindir}/*
 %{_mandir}/man*/*
-
-
