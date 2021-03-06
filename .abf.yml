@@ -1,4 +1,2 @@
-removed_sources:
-  lcov-1.9.tar.gz: 5aff4b998b1288896734326a0b74ab536339ec21
 sources:
-  lcov-1.10.tar.gz: 70fb361bcfd7dd81ea30731d6fe532ddea56f283
+  lcov-1.14.tar.gz: 5570beba61685b7eadf9351972e164dabaf24f9d
