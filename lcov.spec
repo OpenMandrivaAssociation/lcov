@@ -1,7 +1,7 @@
 Summary:	LTP GCOV extension code coverage tool
 Name:		lcov
 Version:	1.16
-Release:	1
+Release:	2
 Group:		Development/Other
 License:	GPLv2
 URL:		http://ltp.sourceforge.net/coverage/lcov.php
