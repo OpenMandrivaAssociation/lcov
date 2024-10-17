@@ -4,7 +4,7 @@ Version:	1.16
 Release:	2
 Group:		Development/Other
 License:	GPLv2
-URL:		http://ltp.sourceforge.net/coverage/lcov.php
+URL:		https://ltp.sourceforge.net/coverage/lcov.php
 Source:		https://github.com/linux-test-project/lcov/releases/download/v%{version}/lcov-%{version}.tar.gz
 BuildArch:	noarch
 
