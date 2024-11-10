@@ -21,7 +21,7 @@ HTML output and support for large projects.
 %build
 
 %install
-%make_install DESTDIR=$RPM_BUILD_ROOT BIN_DIR=%{_bindir} MAN_DIR=%{_mandir} CFG_DIR=%{_sysconfdir} LIB_DIR=%{_datadir}/lcov
+%make_install DESTDIR=$RPM_BUILD_ROOT PREFIX=%{_prefix} BIN_DIR=%{_bindir} MAN_DIR=%{_mandir} CFG_DIR=%{_sysconfdir} LIB_DIR=%{_datadir}/lcov
 chmod -x $RPM_BUILD_ROOT%{_sysconfdir}/lcovrc
 
 %files
