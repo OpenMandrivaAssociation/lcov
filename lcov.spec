@@ -1,6 +1,6 @@
 Summary:	LTP GCOV extension code coverage tool
 Name:		lcov
-Version:	2.2
+Version:	2.3.1
 Release:	1
 Group:		Development/Other
 License:	GPLv2
